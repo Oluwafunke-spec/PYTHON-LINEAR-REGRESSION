@@ -1,4 +1,4 @@
-Linear Regression using OneHotEncoder
+##Linear-Regression-Using-OneHotEncoder
 Introduction
 
 This Python script demonstrates the use of linear regression with OneHotEncoder for predicting housing prices. The script utilizes the HousingDB dataset, containing housing-related features such as lot size, number of bedrooms, bathrooms, stories, garage capacity, and additional amenities like rec room, full basement, and air conditioning.
