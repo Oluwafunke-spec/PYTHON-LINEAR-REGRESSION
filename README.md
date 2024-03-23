@@ -18,17 +18,17 @@ Let's delve into some key statistics derived from the dataset:
 
 **Features**
 
-    Understanding OneHotEncoder: Gain insights into the functionality and benefits of using OneHotEncoder for encoding categorical features in machine learning models.
+   1 Understanding OneHotEncoder: Gain insights into the functionality and benefits of using OneHotEncoder for encoding categorical features in machine learning models.
 
-    Evaluation Metrics: Understand key evaluation metrics for assessing the performance of models trained with OneHotEncoder, including R-squared, mean absolute error, mean squared error, and root mean squared error.
+   2 Evaluation Metrics: Understand key evaluation metrics for assessing the performance of models trained with OneHotEncoder, including R-squared, mean absolute error, mean squared error, and root mean squared error.
 
-    Optimization Strategies: Discover strategies for optimizing OneHotEncoder usage, such as feature selection, hyperparameter tuning, and cross-validation.
+   3 Optimization Strategies: Discover strategies for optimizing OneHotEncoder usage, such as feature selection, hyperparameter tuning, and cross-validation.
 
-    Interpreting Model Results: Learn how to interpret the coefficients and significance of features encoded with OneHotEncoder in the context of different machine learning algorithms.
+   4 Interpreting Model Results: Learn how to interpret the coefficients and significance of features encoded with OneHotEncoder in the context of different machine learning algorithms.
 
-    Handling Large Categorical Variables: Gain insights into strategies for handling large categorical variables efficiently with OneHotEncoder, including feature hashing and target encoding.
+  5  Handling Large Categorical Variables: Gain insights into strategies for handling large categorical variables efficiently with OneHotEncoder, including feature hashing and target encoding.
 
-    Best Practices and Pitfalls: Understand best practices and common pitfalls when using OneHotEncoder, including dealing with multicollinearity, handling missing values, and addressing class imbalances.
+   6 Best Practices and Pitfalls: Understand best practices and common pitfalls when using OneHotEncoder, including dealing with multicollinearity, handling missing values, and addressing class imbalances.
 
 Conclusion
 
