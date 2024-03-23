@@ -1,42 +1,38 @@
-##Linear-Regression-Using-OneHotEncoder
-Introduction
+**##Linear-Regression-Using-OneHotEncoder**
 
-This Python script demonstrates the use of linear regression with OneHotEncoder for predicting housing prices. The script utilizes the HousingDB dataset, containing housing-related features such as lot size, number of bedrooms, bathrooms, stories, garage capacity, and additional amenities like rec room, full basement, and air conditioning.
-Key Statistics
+**Introduction:**
 
-The dataset's key statistics are as follows:
+Welcome to the repository for the Linear Regression using OneHotEncoder project! This Python script showcases the application of linear regression with OneHotEncoder for predicting housing prices. The dataset utilized is HousingDB, which includes various housing-related features such as lot size, number of bedrooms, bathrooms, stories, garage capacity, and additional amenities like rec room, full basement, and air conditioning.
 
-    Price: Mean price: $68,121.60, Standard deviation: $26,702.67, Minimum: $25,000, Maximum: $190,000.
-    Lotsize: Mean: 5150.27, Standard deviation: 2168.16, Minimum: 1650, Maximum: 16200.
-    Bedrooms: Mean: 2.97, Standard deviation: 0.74, Minimum: 1, Maximum: 6.
-    Bathrooms: Mean: 1.29, Standard deviation: 0.50, Minimum: 1, Maximum: 4.
-    Stories: Mean: 1.81, Standard deviation: 0.87, Minimum: 1, Maximum: 4.
-    Garage Capacity: Mean: 0.69, Standard deviation: 0.86, Minimum: 0, Maximum: 3.
 
-Data Preprocessing
+**Key Statistics**
 
-    OneHotEncoder is used to encode categorical features (rec room, full basement, air conditioning).
-    The dataset is split into training and test sets with a test size of 20%.
-    Data scaling is performed using StandardScaler.
+Let's delve into some key statistics derived from the dataset:
 
-Model Building
+    Price: The mean price is $68,121.60, with a standard deviation of $26,702.67. Prices range from $25,000 to $190,000.
+    Lotsize: The mean lot size is 5150.27, with a standard deviation of 2168.16. Lot sizes range from 1650 to 16200.
+    Bedrooms: The mean number of bedrooms is 2.97, with a standard deviation of 0.74. The minimum number of bedrooms is 1, and the maximum is 6.
+    Bathrooms: The mean number of bathrooms is 1.29, with a standard deviation of 0.50. The minimum number of bathrooms is 1, and the maximum is 4.
+    Stories: The mean number of stories is 1.81, with a standard deviation of 0.87. Stories range from 1 to 4.
+    Garage Capacity: The mean garage capacity is 0.69, with a standard deviation of 0.86. Garage capacity ranges from 0 to 3.
 
-    A linear regression model is trained on the training data.
-    Predictions are made on the test data, and model performance metrics are calculated.
+**Features**
 
-Results
+    Understanding OneHotEncoder: Gain insights into the functionality and benefits of using OneHotEncoder for encoding categorical features in machine learning models.
 
-The linear regression model's performance metrics are as follows:
+    Evaluation Metrics: Understand key evaluation metrics for assessing the performance of models trained with OneHotEncoder, including R-squared, mean absolute error, mean squared error, and root mean squared error.
 
-    R-squared (R2): 0.54
-    Adjusted R-squared: 0.53
-    Mean Absolute Error (MAE): $12,127.85
-    Mean Squared Error (MSE): $253,496,059.87
-    Root Mean Squared Error (RMSE): $15,921.56
+    Optimization Strategies: Discover strategies for optimizing OneHotEncoder usage, such as feature selection, hyperparameter tuning, and cross-validation.
+
+    Interpreting Model Results: Learn how to interpret the coefficients and significance of features encoded with OneHotEncoder in the context of different machine learning algorithms.
+
+    Handling Large Categorical Variables: Gain insights into strategies for handling large categorical variables efficiently with OneHotEncoder, including feature hashing and target encoding.
+
+    Best Practices and Pitfalls: Understand best practices and common pitfalls when using OneHotEncoder, including dealing with multicollinearity, handling missing values, and addressing class imbalances.
 
 Conclusion
 
-The linear regression model using OneHotEncoder achieved an R-squared value of 0.54, indicating that the model explains 54% of the variance in housing prices. Further optimization and feature engineering could potentially improve model performance.
+Contributions and recommendations are welcomed. Thanks.
 License
 
 This project is licensed under the MIT License.
