@@ -30,7 +30,7 @@ Let's delve into some key statistics derived from the dataset:
 
    6 Best Practices and Pitfalls: Understand best practices and common pitfalls when using OneHotEncoder, including dealing with multicollinearity, handling missing values, and addressing class imbalances.
 
-Conclusion
+**Conclusion**
 
 Contributions and recommendations are welcomed. Thanks.
 License
